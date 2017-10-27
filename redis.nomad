@@ -40,9 +40,7 @@ job "redis" {
 
       resources {
         network {
-          port "redis" {
-            static = 6379
-          }
+          port "redis" { }
         }
       }
     }
